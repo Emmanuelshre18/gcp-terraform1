@@ -19,7 +19,7 @@ terraform {
 
 /**
 provider "google" {
-  project = "Terraform-GCP-2026"
+  project = "tt-dev-001"
   region  = "us-central1"
 }
 **/
