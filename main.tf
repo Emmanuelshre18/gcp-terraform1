@@ -1,5 +1,5 @@
 //my-bucket is a module that creates a Google cloud storage bucket
-resource "google_storage_bucket" "my-bucket"  {
+resource "google_storage_bucket" "my-bucket" {
   name          = "tt-githubdemo-bucket"
   location      = "US"
   force_destroy = true
